@@ -1,21 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 textarea{
-  width: 90%;
+  width: 80%;
   height: 10vh;
   display: block;
-  margin: 1rem;
   padding: 1rem;
+  margin: 60px 130px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+
 }
 
 body{
-  background-color: rgb(206, 206, 45);
+  background-color: #FFC947;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cinzel', serif;
 }
 
 #heading{
   text-align: center;
 }
 
-#container{
+.container{
   background-color: white;
   align-items: center;
+  margin: 15px 0px;
+  padding: 10px 0px;
+
+}
+
+#translate{
+  padding: 20px 30px;
+  margin-left: 8rem;
+  background-color: #FFC947;
+  font-size: larger;  
+  border-radius: 10px;
+}
+
+#output{
+  margin-left: 8rem;
+  margin-top: 20px;
+  font-size: large;
 
 }
