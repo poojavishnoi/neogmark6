@@ -1,0 +1,21 @@
+textarea{
+  width: 90%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+body{
+  background-color: rgb(206, 206, 45);
+}
+
+#heading{
+  text-align: center;
+}
+
+#container{
+  background-color: white;
+  align-items: center;
+
+}
